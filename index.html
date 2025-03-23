@@ -17,6 +17,11 @@
             .catch(error => console.warn(error) );
 
           document.getElementById("content3").innerHTML='<object type="text/html" data="home.md" ></object>';
+
+          document.getElementById("content4").innerHTML=converter.makeHtml('<object type="text/html" data="home.md" ></object>');
+
+          document.getElementById("content5h").innerHTML='<object type="text/html" data="home.md" ></object>';
+          document.getElementById("content5").innerHTML=converter.makeHtml(document.getElementById("content5h").innerHTML);
         }
     </script>
     <title>Test SIte</title>
@@ -29,5 +34,10 @@
     <div id="content2"></div>
     <div>content3:</div>
     <div id="content3"></div>
+    <div>content4:</div>
+    <div id="content4"></div>
+    <div>content5:</div>
+    <div id="content5h" style="display: none;"></div>
+    <div id="content5"></div>
   </body>
 </html>
