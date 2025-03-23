@@ -6,17 +6,20 @@
       var converter = new showdown.Converter();
       var text      = '# hello, markdown!';
       var html      = converter.makeHtml(text);
-      document.getElementById("content").innerHTML = html;
+      document.getElementById("content1").innerHTML = html;
       
       fetch('home.md')
         .then(response => response.text())
-        .then(text => document.getElementById('content2').innerHTML = converter.makeHtml(text));
+        .then(text => document.getElementById('content2').innerHTML = converter.makeHtml(text))
+        .catch(error => console.warn(error) );
     </script>
     <title>Test SIte</title>
   </head>
   <body>
-    Hello World!
-    <div id="content"/>
-    <div id="content2"/>
+    <div>Hello World!</div>
+    <div>content1:</div>
+    <div id="content1"></div>
+    <div>content2:</div>
+    <div id="content2"></div>
   </body>
 </html>
