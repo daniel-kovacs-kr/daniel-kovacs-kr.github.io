@@ -3,23 +3,32 @@
     <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
-      var converter = new showdown.Converter();
-      var text      = '# hello, markdown!';
-      var html      = converter.makeHtml(text);
-      document.getElementById("content1").innerHTML = html;
       
-      fetch('home.md')
-        .then(response => response.text())
-        .then(text => document.getElementById('content2').innerHTML = converter.makeHtml(text))
-        .catch(error => console.warn(error) );
+        function codeAddress() {
+          alert('ok');
+          
+          var converter = new showdown.Converter();
+          var text      = '# hello, markdown!';
+          var html      = converter.makeHtml(text);
+          document.getElementById("content1").innerHTML = html;
+      
+          fetch('home.md')
+            .then(response => response.text())
+            .then(text => document.getElementById('content2').innerHTML = converter.makeHtml(text))
+            .catch(error => console.warn(error) );
+
+          document.getElementById("content3").innerHTML='<object type="text/html" data="home.md" ></object>';
+        }
     </script>
     <title>Test SIte</title>
   </head>
-  <body>
+  <body onload="onload();">
     <div>Hello World!</div>
     <div>content1:</div>
     <div id="content1"></div>
     <div>content2:</div>
     <div id="content2"></div>
+    <div>content3:</div>
+    <div id="content3"></div>
   </body>
 </html>
