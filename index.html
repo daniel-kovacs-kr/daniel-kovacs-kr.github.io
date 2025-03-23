@@ -1,4 +1,16 @@
 <html>
-  <head><title>Test SIte</title></head>
-  <body>Hello World!</body>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js" />
+    <script>
+      var converter = new showdown.Converter();
+      var text      = '# hello, markdown!';
+      var html      = converter.makeHtml(text);
+      document.getElementById("content").innerHTML = html;
+    </script>
+    <title>Test SIte</title>
+  </head>
+  <body>
+    Hello World!
+    <div id="content"/>
+  </body>
 </html>
