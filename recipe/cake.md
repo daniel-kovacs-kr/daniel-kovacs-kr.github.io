@@ -1,4 +1,4 @@
-# Dupla csokis trüffeltorta
+## Dupla csokis trüffeltorta
 
 -   Piskótához
     -   2 db tojás
