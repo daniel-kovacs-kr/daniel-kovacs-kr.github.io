@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        function onload() {
+          var converter = new showdown.Converter();
+      
+          fetch('recipe/cake.md')
+            .then(response => response.text())
+            .then(text => document.getElementById('content-cake').innerHTML = converter.makeHtml(text))
+            .catch(error => console.warn(error) );
+        }
+    </script>
+    <title>Test SIte</title>
+  </head>
+  <body onload="onload();">
+    <h1>Cake</h1>
+    <hr />
+    <div id="content-cake"></div>
+  </body>
+</html>
