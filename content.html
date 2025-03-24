@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@2.1.0/dist/showdown.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        function onload() {
+          var converter = new showdown.Converter();
+          const urlParams = new URLSearchParams(window.location.search);
+          const contentFile = urlParams.get('contentFile');
+          document.title = urlParams.get('title');
+      
+          fetch(contentFile)
+            .then(response => response.text())
+            .then(text => document.getElementById('content').innerHTML = converter.makeHtml(text))
+            .catch(error => console.warn(error) );
+        }
+    </script>
+    <title>No Title</title>
+  </head>
+  <body onload="onload();">
+    <div id="content"></div>
+  </body>
+</html>
