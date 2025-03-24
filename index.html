@@ -6,7 +6,7 @@
         function onload() {
           var converter = new showdown.Converter();
       
-          fetch('recipe.cake.md')
+          fetch('recipe/cake.md')
             .then(response => response.text())
             .then(text => document.getElementById('content-cake').innerHTML = converter.makeHtml(text))
             .catch(error => console.warn(error) );
