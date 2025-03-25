@@ -12,4 +12,4 @@
 
 1.  Összekeverjük vagy befőttes üvegben összerázzuk.
 
-https://www.nosalty.hu/recept/mezes-balzsamecetes-dresszing
+[https://www.nosalty.hu/recept/mezes-balzsamecetes-dresszing](https://www.nosalty.hu/recept/mezes-balzsamecetes-dresszing)

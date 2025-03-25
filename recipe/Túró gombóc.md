@@ -30,5 +30,5 @@
 1.   A morzsát vajon meg pirítjuk
 1.  Amelyik gombóc feljön a viz tetejére az megfőtt, kivesszük és a pirított morzsában megforgatjuk
 
-https://www.nosalty.hu/recept/habkonnyu-turogomboc
+[https://www.nosalty.hu/recept/habkonnyu-turogomboc](https://www.nosalty.hu/recept/habkonnyu-turogomboc)
 
