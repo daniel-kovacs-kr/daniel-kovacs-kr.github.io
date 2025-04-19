@@ -27,5 +27,5 @@
 1.  3-4 órát hűtőben dermesztjük (lehet egy egész éjszakát is).
 1.  Csokiforgácsokkal és meggyszemekkel díszítjük.
 
-[https://www.nosalty.hu/recept/feketeerdo-torta-kitti-konyhajabol](https://www.nosalty.hu/recept/feketeerdo-torta-kitti-konyhajabol)
+<https://www.nosalty.hu/recept/feketeerdo-torta-kitti-konyhajabol>
 

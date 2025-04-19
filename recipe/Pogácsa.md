@@ -29,4 +29,4 @@
 1.  Sütőben 40 °C-on (vizes tepsi felett) 10-40 percet kelesztjük
 1.  Sütőben 190 °C-on 15 perc alatt készre sütjük
 
-[https://www.mindmegette.hu/hajtogatott-sajtos-pogacsa-hutoben-kelesztett.recept/](https://www.mindmegette.hu/hajtogatott-sajtos-pogacsa-hutoben-kelesztett.recept/)
+<https://www.mindmegette.hu/hajtogatott-sajtos-pogacsa-hutoben-kelesztett.recept/>

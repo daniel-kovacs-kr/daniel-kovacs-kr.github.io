@@ -20,5 +20,5 @@
 4.  Vágjuk ketté a piskotát. Készítsünk két rétegűtortát, majd tegyük a tortát a hűtőbe legalább 2 órára.
 5.  Vegyük ki a tortát a formából, és díszítsük málnával.
 
-[https://www.nosalty.hu/recept/dupla-csokis-truffeltorta](https://www.nosalty.hu/recept/dupla-csokis-truffeltorta)
+<https://www.nosalty.hu/recept/dupla-csokis-truffeltorta>
 

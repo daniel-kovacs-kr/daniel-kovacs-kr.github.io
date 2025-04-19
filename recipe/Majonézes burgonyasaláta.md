@@ -22,5 +22,4 @@
 1.  Belekeverjük a leszűrt hagymás krumplit
 1.  Egy éjszakát hagyjuk a hűtőben összeérni
 
-[https://www.nosalty.hu/recept/majonezes-burgonyasalata-3](https://www.nosalty.hu/recept/majonezes-burgonyasalata-3)
-
+<https://www.nosalty.hu/recept/majonezes-burgonyasalata-3>

@@ -12,5 +12,5 @@
 1.  Az olajon kívül mehet minden at aprító gépbe
 1.  Ha már kezd összeállni akkor fokozatosan lehet hozzáönteni az olajat
 
-[https://hu.garden-trick.com/64-peanut-pesto-3-delicious-recipes-for-pasta-amp-co.html](https://hu.garden-trick.com/64-peanut-pesto-3-delicious-recipes-for-pasta-amp-co.html)
+<https://hu.garden-trick.com/64-peanut-pesto-3-delicious-recipes-for-pasta-amp-co.html>
 

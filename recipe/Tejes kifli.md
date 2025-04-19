@@ -17,5 +17,4 @@
 1.  Fél órát hagyom a kifliket szoba-hőmérsékleten kelni vagy kicsit bespriccelem a kifliket vízzel és fél órát hagyom a kifliket 30-40 fokon a sütőben kelni hő be fúvásos-légkeveréses üzemmódban.
 1.  A megkelt kifliket lespriccelem egy kis vízzel, majd 180 fokosra tekerem a sütőt és körülbelül 20 perc alatt aranyszínűre sütöm őket
 
-[https://www.origo.hu/tafelspicc/20150923-bolti-kifli-a-hazi-kifli-ellen-recept-utmutato.html](https://www.origo.hu/tafelspicc/20150923-bolti-kifli-a-hazi-kifli-ellen-recept-utmutato.html)
-
+<https://www.origo.hu/tafelspicc/20150923-bolti-kifli-a-hazi-kifli-ellen-recept-utmutato.html>

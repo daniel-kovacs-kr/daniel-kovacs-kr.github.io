@@ -15,4 +15,4 @@
 1.  A céklát üvegekbe rakjuk és feltöltjük forró lével, hogy ellepje
 1.  Lezárjuk majd száraz dunsztba rakjuk kihűlni
 
-[https://cookpad.com/hu/receptek/1925199-cekla-befott](https://cookpad.com/hu/receptek/1925199-cekla-befott)
+<https://cookpad.com/hu/receptek/1925199-cekla-befott>

@@ -29,4 +29,4 @@
     1.  Ízlés szerint sózzuk, cukrozzuk
     1.  Felforraljuk
 
-[https://cookpad.com/hu/receptek/1923979-paradicsomos-husgomboc](https://cookpad.com/hu/receptek/1923979-paradicsomos-husgomboc)
+<https://cookpad.com/hu/receptek/1923979-paradicsomos-husgomboc>
