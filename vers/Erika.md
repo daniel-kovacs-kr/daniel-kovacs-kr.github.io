@@ -12,13 +12,13 @@
 > El ne fáradj kérlek szépen,
 > Meglocsollak minden héten.
 > 
-> *Dani*
+>> *Dani*
 
 > Kék tengerben él a rák,
 > Adtam neki vacsorát,
 > Adott érte sok sok vizet,
 > ami mind a tied lehet.
 > 
-> *Alvin*
+>> *Alvin*
 
 ---
