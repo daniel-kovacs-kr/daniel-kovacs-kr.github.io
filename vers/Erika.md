@@ -1,6 +1,30 @@
 
 ---
 
+## 2023
+
+>Szárnyra kapva messze szálltunk,  
+>a tengerig meg se álltunk.  
+>Kis szigeten földet érve,  
+>megérkeztünk messze délre.  
+>
+>Hullám ellen várfal épült,  
+>kő hátára kavics került.  
+>Ettünk-ittunk finomakat,  
+>nézelődtünk a viz alatt.  
+>
+>Meleg szélben sétálgattunk,  
+>tengert érve jól eláztunk.  
+>A szigetet körbejárva,  
+>rátaláltunk minden bájra.  
+>
+>Haza értünk, és itt a tavasz,  
+>meglocsollak, ha el nem szaladsz...  
+>
+>> Dani
+
+---
+
 ## 2024
 
 > Locsolgattunk nevelgettünk,  
