@@ -23,5 +23,7 @@ Fonott Kalács
 1.  A sütőt 185 fokra előmelegítjük alsó-felső sütési módban. Amikor betesszük a kalácsokat, 180 fokra mérsékeljük a hőmérsékletet. A nagyobb kalács 28 perc alatt, a két kisebb 25 perc alatt sült aranybarnára.
 
 <https://www.mindmegette.hu/husveti-fonott-kalacs-haromfele-toltelekkel-szabi-a-pek.recept/>
+
 <https://streetkitchen.hu/pekseg/perfekt-foszlos-kalacs/>
+
 <https://streetkitchen.hu/pekseg/lajos-fele-fonott-kalacs/>
