@@ -20,3 +20,23 @@
 >> *Alvin*
 
 ---
+
+## 2025
+
+> Én iskolás kis virágom,  
+> Szirmaidat nagyon várom.  
+> Kibújtál már maghéjadból,  
+> Körbenéztél magasabbról.  
+> Betakarom gyökeredet,  
+> Halkan vizet csöpögtetek.  
+>
+>> *Dani*
+
+> Kis mezőnél jártam,  
+> Ibolyát is láttam.  
+> Ti voltatok mellette,  
+> Locsolgatni szabad-e?  
+>
+>> *Alvin*
+
+---
