@@ -49,18 +49,18 @@
 
 ## 2025
 
-> Vers és tojás, régi csere,
-> Húsvétkor van az ideje.
+> Vers és tojás, régi csere,  
+> Húsvétkor van az ideje.  
 >
-> Bármilyen is lett a tojás,
-> Mindenképpen lesz locsolás.
-> Lehet kifújt és fekete,
-> Ha főtt, gyomorba be vele.
+> Bármilyen is lett a tojás,  
+> Mindenképpen lesz locsolás.  
+> Lehet kifújt és fekete,  
+> Ha főtt, gyomorba be vele.  
 >
-> Vers se baj, ha kicsit régi,
-> Csak víz legyen, nehogy kölni.
-> Így lenne jobb a locsolás,
-> Stressz mentes a Húsvétolás.
+> Vers se baj, ha kicsit régi,  
+> Csak víz legyen, nehogy kölni.  
+> Így lenne jobb a locsolás,  
+> Stressz mentes a Húsvétolás.  
 >
 >> *Dani*
 
