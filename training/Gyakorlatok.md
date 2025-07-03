@@ -1,6 +1,15 @@
+# Talp gyakorlatok
 
+-   Talp fa rúddal
 
-# Bemelegítés
+# Bemelegítés (5 perc)
+
+## Hengerezés
+
+-   Forgo
+-   Comb külső/belső/alsó oldala
+-   Vádli külső/belső/alsó oldala
+-   Hát
 
 ## Egyensulyi gyakorlatok párnán
 
@@ -9,43 +18,46 @@
     -   Karok vízszintesen, egyik kar előre másik oldalra, két kar pozíciójának a cseréje
     -   Karok oldalra, könyöknél felfelé hajlítva, felváltva belenézni a tenyerekbe
 
-# Hengerezés
+# Erősítés (10-20 perc)
 
--   Forgo
--   Comb külső/alsó oldala
--   Vádli külső/alsó oldala
-
-# Talp gyakorlatok
-
--   Talp fa rúddal
-
-
-# Erősítés
-
--   Hason fekve váltott lábemelés, lábemelés plusz kivisszük oldalra 
--   Háton fekve váltott lábnyújtás, hashoz húzott lábbal 
-    -   derékszögben a két láb, lábfej visszafeszít - egyik lábat hajlítva oldalravisszük, hajlítva nyitjuk-zárjuk, oldalra nyújtjuk az egyik lábat, terpeszbe nyújtjuk a lábakat - akár koronggal
+-   Hason fekve váltott lábemelés
+    -   Normál lábemelés
+    -   Lábemelés aztan kivisszük oldalra
+-   Háton fekve váltott lábnyújtás, hashoz húzott lábbal, akár koronggal a csípő alatt (derékszögben a két láb, lábfej visszafeszít)
+    -   Normál lábnyújtás
+    -   Oldalra nyújtjuk az egyik lábat
+    -   Terpeszbe nyújtjuk mindkét lábat
+    -   Egyik lábat hajlítva oldalra visszük
+    -   Mindkét lábat oldara nyitjuk majd zárjuk
 -   Hasprés
--   Csípő emelés (híd/rámpa) koronggal vagy anélkül 
+-   Plank
+-   Csípő emelés (híd/rámpa), akár koronggal a talp alatt
+    -   Emelés, lerakás
     -   Csípő pumpálás
-    -   Lábemelés
+    -   Váltott lábemelés
+-   Négykézláb, akár labdán egyensúllyozva
+    -   Nyújtott lábemelés hátrafelé
+    -   Nyújtott lábemelés oldalra
+    -   Behajlitott lábbal oldalra
 
 
-# Nyújtó gyakorlat
+# Nyújtó gyakorlat (4-6 × 4 perc)
 
 -   Comb
     -   Állva asztalra emelve
     -   Fekve gurtni
     -   Földön ülve nyújtott lábbal
--    Vádli
+-   Vádli
     -   Állva hátsó láb nyújtása
     -   Bordásfalnál első láb nyújtása
 -   Csavarodás hason fekve (Fonott kalács)
 -   Csavarodás háton fekve
 -   Ülve felső láb alsó térdre (Cow face)
-
+-   Négy fejű izom nyújtás
+    -   Háton egyik láb visszahajlik
 
 ## Hosszúidejű nyújtás
 
 -   Hason fekve felkönyökölni (Szfinx)
 -   Földön ülve nyújtott lábbal, falnak támasztott háttal
+-   Földön fekve nyújtott lábbal, falra fektetett háttal
