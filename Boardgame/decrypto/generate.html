@@ -79,6 +79,18 @@
             function switchVisibility(confirmationActive) {
                 document.getElementById('gen-start-div').style.display = confirmationActive ? 'none' : 'flex';
                 document.getElementById('gen-confirm-div').style.display = confirmationActive ? 'flex' : 'none';
+
+                // Set timeout for confirmation
+                if (confirmationActive) {
+                    confirmTimeout = setTimeout(function() {
+                        switchVisibility(false);
+                    }, 3000);
+                } else {
+                    if (confirmTimeout) {
+                        clearTimeout(confirmTimeout);
+                        confirmTimeout = null;
+                    }
+                }
             }
         </script>
         <title>Kódfejtő genrátor</title>
