@@ -42,6 +42,8 @@
                 } else {
                     generate();
                 }
+
+                switchVisibility(false);
             }
 
             function generate() {
@@ -73,14 +75,23 @@
                 const timeString = now.toLocaleTimeString('hu-HU', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
                 document.getElementById('gen-time').innerText = 'Generálva: ' + timeString;
             }
+
+            function switchVisibility(confirmationActive) {
+                document.getElementById('gen-start-div').style.display = confirmationActive ? 'none' : 'flex';
+                document.getElementById('gen-confirm-div').style.display = confirmationActive ? 'flex' : 'none';
+            }
         </script>
         <title>Kódfejtő genrátor</title>
     </head>
     <body onload="onLoad();">
         <div id="gen-time" style="text-align: center; font-size: 2vw; margin-top: 2vh;">Generálva: </div>
-        <div style="display: flex; justify-content: center; align-items: center; height: 20vh;">
-            <div id="content-genH" style="font-size: 15vw; text-align: center; height: 50vh; display: flex; align-items: center; justify-content: center;"></div>
-            <button onclick="generate();" style="font-size: 3vw; padding: 2vw 4vw;">Új kód</button>
+        <div id="content-genH" style="font-size: 15vw; text-align: center; height: 50vh; display: flex; align-items: center; justify-content: center;"></div>
+        <div id="gen-confirm-div" style="display: none; gap: 10vw; flex-direction: row; justify-content: center; align-items: center; height: 20vh; gap: 5vw;">
+            <button onclick="generate(); switchVisibility(false);" style="font-size: 3vw; padding: 2vw 4vw;">Mehet</button>
+            <button onclick="switchVisibility(false);" style="font-size: 3vw; padding: 2vw 4vw;">Mégsem</button>
+        </div>
+        <div id="gen-start-div" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 20vh;">
+            <button onclick="switchVisibility(true);" style="font-size: 3vw; padding: 2vw 4vw;">Új kód</button>
         </div>
     </body>
 </html>
