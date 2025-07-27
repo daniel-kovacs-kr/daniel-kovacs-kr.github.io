@@ -32,13 +32,13 @@
       }
     </style>
     <script>
-        function generate() {
+        function generate(status) {
 
             var address = window.location.search;
             var parameterList = new URLSearchParams(address);
             var text = parameterList.get("text");
 
-            if (!text) {
+            if (status || !text) {
                 const possibel_values = ['1', '2', '3', '4'];
 
                 text = '';
@@ -49,11 +49,11 @@
                     text += first + '.';
                 }
                 text = text.substring(0, 5);
+
+                parameterList.set('text', text);
             }
             
             document.getElementById('content-genH').innerHTML = text;
-
-            parameterList.set('text', text);
             
             // Show generation time above the text
             const now = new Date();
@@ -63,11 +63,11 @@
     </script>
     <title>Kódfejtő genrátor</title>
   </head>
-  <body onload="generate();">
+  <body onload="generate(false);">
     <div id="gen-time" style="text-align: center; font-size: 2vw; margin-top: 2vh;">Generálva: </div>
     <div id="content-genH" style="font-size: 15vw; text-align: center; height: 50vh; display: flex; align-items: center; justify-content: center;"></div>
     <div style="display: flex; justify-content: center; align-items: center; height: 20vh;">
-      <button onclick="generate();" style="font-size: 3vw; padding: 2vw 4vw;">Új kód</button>
+      <button onclick="generate(true);" style="font-size: 3vw; padding: 2vw 4vw;">Új kód</button>
     </div>
   </body>
 </html>
