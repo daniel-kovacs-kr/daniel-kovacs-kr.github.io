@@ -44,6 +44,8 @@
             }
             
             document.getElementById('content-genH').innerHTML = text.substring(0, 5);
+
+            window.location.href = window.location.href + '&text=' + text; 
             
             // Show generation time above the text
             const now = new Date();
