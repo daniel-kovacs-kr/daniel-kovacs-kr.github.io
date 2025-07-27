@@ -13,11 +13,17 @@
             }
             
             document.getElementById('content-genH').innerHTML = text.substring(0, 5);
+            
+            // Show generation time above the text
+            const now = new Date();
+            const timeString = now.toLocaleTimeString('hu-HU', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+            document.getElementById('gen-time').innerText = 'Generálva: ' + timeString;
         }
     </script>
     <title>Kódfejtő genrátor</title>
   </head>
   <body onload="generate();">
+    <div id="gen-time" style="text-align: center; font-size: 2vw; margin-top: 2vh;">Generálva: </div>
     <div id="content-genH" style="font-size: 15vw; text-align: center; height: 50vh; display: flex; align-items: center; justify-content: center;"></div>
     <div style="display: flex; justify-content: center; align-items: center; height: 20vh;">
       <button onclick="generate();" style="font-size: 3vw; padding: 2vw 4vw;">Új kód</button>
