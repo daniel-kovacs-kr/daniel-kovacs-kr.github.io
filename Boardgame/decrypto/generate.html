@@ -1,7 +1,7 @@
 <html>
   <head>
     <script>
-        function onload() {
+        function generate() {
             const possibel_values = ['1', '2', '3', '4'];
 
             var text = '';
@@ -17,7 +17,8 @@
     </script>
     <title>Kódfejtő genrátor</title>
   </head>
-  <body onload="onload();">
+  <body onload="generate();">
     <h1 id="content-genH"></h1>
+    <button onclick="generate();" style="font-size: 3vw; padding: 2vw 4vw;">Új kód</button>
   </body>
 </html>
