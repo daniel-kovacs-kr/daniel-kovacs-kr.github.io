@@ -1,7 +1,38 @@
 <html>
   <head>
+    <style>
+      body {
+        background: #181818;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+      }
+      #gen-time {
+        color: #ff9800;
+        font-size: 2vw;
+        margin-top: 2vh;
+      }
+      #content-genH {
+        font-size: 12vw;
+        color: #bfd3c9;
+        font-weight: bold;
+        margin: 4vh 0;
+      }
+      button {
+        font-size: 3vw;
+        background: #00e676;
+        color: #181818;
+        border: none;
+        border-radius: 2vw;
+        padding: 2vw 4vw;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #1de9b6;
+      }
+    </style>
     <script>
-        function onload() {
+        function generate() {
             const possibel_values = ['1', '2', '3', '4'];
 
             var text = '';
@@ -13,11 +44,20 @@
             }
             
             document.getElementById('content-genH').innerHTML = text.substring(0, 5);
+            
+            // Show generation time above the text
+            const now = new Date();
+            const timeString = now.toLocaleTimeString('hu-HU', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+            document.getElementById('gen-time').innerText = 'Generálva: ' + timeString;
         }
     </script>
     <title>Kódfejtő genrátor</title>
   </head>
-  <body onload="onload();">
-    <h1 id="content-genH"></h1>
+  <body onload="generate();">
+    <div id="gen-time" style="text-align: center; font-size: 2vw; margin-top: 2vh;">Generálva: </div>
+    <div id="content-genH" style="font-size: 15vw; text-align: center; height: 50vh; display: flex; align-items: center; justify-content: center;"></div>
+    <div style="display: flex; justify-content: center; align-items: center; height: 20vh;">
+      <button onclick="generate();" style="font-size: 3vw; padding: 2vw 4vw;">Új kód</button>
+    </div>
   </body>
 </html>
