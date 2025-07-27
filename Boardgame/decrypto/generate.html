@@ -51,6 +51,8 @@
                 text = text.substring(0, 5);
 
                 parameterList.set('text', text);
+
+                window.history.pushState('generator', 'Kódfejtő genrátor', '/Boardgame/decrypto/generate.html?text=' + text);
             }
             
             document.getElementById('content-genH').innerHTML = text;
