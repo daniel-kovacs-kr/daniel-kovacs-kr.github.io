@@ -1,86 +1,109 @@
 <html>
-  <head>
-    <style>
-      body {
-        background: #181818;
-        font-family: Arial, sans-serif;
-        text-align: center;
-        margin: 0;
-      }
-      #gen-time {
-        color: #ff9800;
-        font-size: 2vw;
-        margin-top: 2vh;
-      }
-      #content-genH {
-        font-size: 12vw;
-        color: #bfd3c9;
-        font-weight: bold;
-        margin: 4vh 0;
-      }
-      button {
-        font-size: 3vw;
-        background: #00e676;
-        color: #181818;
-        border: none;
-        border-radius: 2vw;
-        padding: 2vw 4vw;
-        cursor: pointer;
-      }
-      button:hover {
-        background: #1de9b6;
-      }
-    </style>
-    <script>
-        function onLoad() {
-            var address = window.location.search;
-            var parameterList = new URLSearchParams(address);
-            var text = parameterList.get("text");
+    <head>
+        <style>
+            body {
+              background: #181818;
+              font-family: Arial, sans-serif;
+              text-align: center;
+              margin: 0;
+            }
+            #gen-time {
+              color: #ff9800;
+              font-size: 2vw;
+              margin-top: 2vh;
+            }
+            #content-genH {
+              font-size: 12vw;
+              color: #bfd3c9;
+              font-weight: bold;
+              margin: 4vh 0;
+            }
+            button {
+              font-size: 3vw;
+              background: #00e676;
+              color: #181818;
+              border: none;
+              border-radius: 2vw;
+              padding: 2vw 4vw;
+              cursor: pointer;
+            }
+            button:hover {
+              background: #1de9b6;
+            }
+        </style>
+        <script>
+            function onLoad() {
+                var address = window.location.search;
+                var parameterList = new URLSearchParams(address);
+                var text = parameterList.get("text");
 
-            if (text) {
+                if (text) {
+                    print(text);
+                } else {
+                    generate();
+                }
+
+                switchVisibility(false);
+            }
+
+            function generate() {
+                const possibel_values = ['1', '2', '3', '4'];
+
+                var text = '';
+                for (let i = 0; i < 3; i++) {
+                    var randomIndex = Math.floor(Math.random() * (4 - i));
+                    var first = possibel_values.splice(randomIndex, 1);
+
+                    text += first + '.';
+                }
+                text = text.substring(0, 5);
+
                 print(text);
-            } else {
-                generate();
             }
-        }
 
-        function generate() {
-            const possibel_values = ['1', '2', '3', '4'];
+            function print(text) {
+                var address = window.location.search;
+                var parameterList = new URLSearchParams(address);
+                parameterList.set('text', text);
 
-            var text = '';
-            for (let i = 0; i < 3; i++) {
-                var randomIndex = Math.floor(Math.random() * (4 - i));
-                var first = possibel_values.splice(randomIndex, 1);
+                window.history.pushState('generator', 'Kódfejtő genrátor', '/Boardgame/decrypto/generate.html?text=' + text);
+                  
+                document.getElementById('content-genH').innerHTML = text;
 
-                text += first + '.';
+                // Show generation time above the text
+                const now = new Date();
+                const timeString = now.toLocaleTimeString('hu-HU', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
+                document.getElementById('gen-time').innerText = 'Generálva: ' + timeString;
             }
-            text = text.substring(0, 5);
 
-            print(text);
-        }
+            function switchVisibility(confirmationActive) {
+                document.getElementById('gen-start-div').style.display = confirmationActive ? 'none' : 'flex';
+                document.getElementById('gen-confirm-div').style.display = confirmationActive ? 'flex' : 'none';
 
-        function print(text) {
-            var address = window.location.search;
-            var parameterList = new URLSearchParams(address);
-            parameterList.set('text', text);
-
-            window.history.pushState('generator', 'Kódfejtő genrátor', '/Boardgame/decrypto/generate.html?text=' + text);
-              
-            document.getElementById('content-genH').innerHTML = text;
-
-            // Show generation time above the text
-            const now = new Date();
-            const timeString = now.toLocaleTimeString('hu-HU', { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false });
-            document.getElementById('gen-time').innerText = 'Generálva: ' + timeString;
-        }
-    </script>
-    <title>Kódfejtő genrátor</title>
-  </head>
-  <body onload="onLoad();">
-    <div id="gen-time" style="text-align: center; font-size: 2vw; margin-top: 2vh;">Generálva: </div>
-    <div id="content-genH" style="font-size: 15vw; text-align: center; height: 50vh; display: flex; align-items: center; justify-content: center;"></div>
-    <div style="display: flex; justify-content: center; align-items: center; height: 20vh;">
-      <button onclick="generate();" style="font-size: 3vw; padding: 2vw 4vw;">Új kód</button>
-    </div>
-  </body>
+                // Set timeout for confirmation
+                if (confirmationActive) {
+                    confirmTimeout = setTimeout(function() {
+                        switchVisibility(false);
+                    }, 3000);
+                } else {
+                    if (confirmTimeout) {
+                        clearTimeout(confirmTimeout);
+                        confirmTimeout = null;
+                    }
+                }
+            }
+        </script>
+        <title>Kódfejtő genrátor</title>
+    </head>
+    <body onload="onLoad();">
+        <div id="gen-time" style="text-align: center; font-size: 2vw; margin-top: 2vh;">Generálva: </div>
+        <div id="content-genH" style="font-size: 15vw; text-align: center; height: 50vh; display: flex; align-items: center; justify-content: center;"></div>
+        <div id="gen-confirm-div" style="display: none; gap: 10vw; flex-direction: row; justify-content: center; align-items: center; height: 20vh; gap: 5vw;">
+            <button onclick="generate(); switchVisibility(false);" style="font-size: 3vw; padding: 2vw 4vw;">Mehet</button>
+            <button onclick="switchVisibility(false);" style="font-size: 3vw; padding: 2vw 4vw;">Mégsem</button>
+        </div>
+        <div id="gen-start-div" style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 20vh;">
+            <button onclick="switchVisibility(true);" style="font-size: 3vw; padding: 2vw 4vw;">Új kód</button>
+        </div>
+    </body>
 </html>
