@@ -23,6 +23,11 @@
 -   Hason fekve váltott lábemelés
     -   Normál lábemelés
     -   Lábemelés aztan kivisszük oldalra
+-   Négykézláb, akár labdán egyensúllyozva
+    -   Nyújtott lábemelés hátrafelé
+    -   Nyújtott lábemelés oldalra
+    -   Behajlitott lábbal oldalra
+-   Plank
 -   Háton fekve váltott lábnyújtás, hashoz húzott lábbal, akár koronggal a csípő alatt (derékszögben a két láb, lábfej visszafeszít)
     -   Normál lábnyújtás
     -   Oldalra nyújtjuk az egyik lábat
@@ -30,15 +35,10 @@
     -   Egyik lábat hajlítva oldalra visszük
     -   Mindkét lábat oldara nyitjuk majd zárjuk
 -   Hasprés
--   Plank
 -   Csípő emelés (híd/rámpa), akár koronggal a talp alatt
     -   Emelés, lerakás
     -   Csípő pumpálás
     -   Váltott lábemelés
--   Négykézláb, akár labdán egyensúllyozva
-    -   Nyújtott lábemelés hátrafelé
-    -   Nyújtott lábemelés oldalra
-    -   Behajlitott lábbal oldalra
 
 
 # Nyújtó gyakorlat (4-6 × 4 perc)
