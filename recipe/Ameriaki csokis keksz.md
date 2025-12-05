@@ -4,7 +4,7 @@
 
 -   150 gramm földimogyoró
 -   3 db tojás
--   70 gramm kokusz
+-   70 gramm kókusz
 -   55 gramm 70%-os étcsoki
 -   2.5 gramm cukor
 
