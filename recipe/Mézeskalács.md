@@ -2,28 +2,28 @@
 
 ------------------------------------------------------------------------------------------------------------------------
 
--   Tészta:
-    -   1 kg liszt
-    -   30 dkg porcukor
-    -   40 dkg méz
-    -   25 dkg vaj
-    -   5 db tojás sárgája
-    -   7 cl víz
-    -   25 g étkezési szódabikarbóna
-    -   1 db citrom héja
-    -   18 gramm mézes sütemény fűszer keverek
 -   Fűszerek (fűszer keverek helyett):
-    -   3-6 (3) teáskanál fahéj
-    -   2-4 (3) teáskanál szárított gyömbér
-    -   1-3 (2) teáskanál szegfűszeg
-    -   1-3 (2) teáskanál szegfűbors
-    -   0-1 (.5) teáskanál szerecsendió
-    -   1-3 (2) teáskanál kardomon
-    -   0-1 (0) teáskanál koriander
-    -   1-2 (1) db csillagánizs
-    -   0-1 (.5) teáskanál ánizs
-    -   0-.25 (0) teáskanál bors
-    -   0-1 (0) teáskanál édeskömény
+    -   6-12 (6) teáskanál fahéj
+    -   4-8 (6) teáskanál szárított gyömbér
+    -   2-6 (3) teáskanál szegfűszeg
+    -   2-6 (4) teáskanál szegfűbors
+    -   0-2 (1) teáskanál szerecsendió
+    -   2-6 (4) teáskanál kardomon
+    -   0-2 (0) teáskanál koriander
+    -   2-4 (2) db csillagánizs
+    -   0-2 (1) teáskanál ánizs
+    -   0-.5 (0) teáskanál bors
+    -   0-2 (0) teáskanál édeskömény
+-   Tészta:
+    -   800 gramm liszt
+    -   240 gramm porcukor
+    -   320 gramm méz
+    -   200 gramm vaj
+    -   4 db tojás sárgája
+    -   8 gramm víz (szükség esetén több)
+    -   20 gramm étkezési szódabikarbóna
+    -   1 db citrom héja
+    -   14 gramm mézes sütemény fűszer keverek
 -   Tojásfehérje hab:
     -   1 db tojásfehérje
     -   20 dkg porcukor átszitálva
