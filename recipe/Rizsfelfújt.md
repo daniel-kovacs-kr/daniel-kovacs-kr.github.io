@@ -5,7 +5,7 @@
 -   risz főzése:
     -   0.4 liter víz
     -   0.8 liter tej
-    -   2 bögre =~ 250 gramm rizs
+    -   2 bögre =~ 500 gramm rizs
     -   4 evőkanál =~ 80 gramm cukor
     -   20 g vaniliás cukor
 -   1 citrom héja
