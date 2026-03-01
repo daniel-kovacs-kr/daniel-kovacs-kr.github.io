@@ -1,5 +1,19 @@
 ## Muffin
 
+-   250 gramm liszt
+-   100 gramm por cukor
+-   200 gramm joghurt
+-   100 gramm étcsokoládé
+-   100 milliliter tej
+-   1 tojás
+-   2 evőkanál olaj
+-   1 teáskanál vanilia kivonat
+-   12 gramm sütőpor
+-   1 nagy csipet só
+
+1.  Összekeverjük a hozzávalókat és kivajazott formába rakjuk
+1.  Berakjuk elő melegített sütőbe alsó-felső sütésre 180 °C-on 30 percre
+
 -----------------------------------------------------------------------------------------------------------------------
 
 -   150 gramm teljes kiőrlésű liszt
